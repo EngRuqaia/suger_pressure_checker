@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blood Sugar Checker</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://kit.fontawesome.com/ca825dfbdd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav class="title"> <h1>Blood Pressure & Blood Sugar Checker</h1></nav>
+<div class="container">
+<div class="Section_1">
+   <div class="for_suger"> 
+    
+    <h1>Blood Sugar Checker</h1>
+    <label for="bloodSugarInput">Enter your blood sugar level (mg/dL):</label>
+    <input type="number" id="bloodSugarInput" min="0">
+    <button onclick="checkBloodSugar()">Check</button>
+    <p id="result"></p> 
+
+    </div>
+    <div class="for_pressure">
+            <h1>Blood Pressure Checker</h1>
+            <label for="pressure">Enter your blood pressure (mmHg):</label>
+            <input type="number" id="pressure" min="0">
+            <button onclick="checkPressure()">Check</button>
+            <p id="result_pressure"></p>
+          </div>
+    </div>
+
+<div class="Section_2">
+   <h2>Tips for Managing Blood Sugar:</h2>
+   <p><list>
+    Balanced Diet: Eat a diet rich in fiber, whole grains, lean proteins, and healthy fats. Monitor carbohydrate intake, especially refined sugars and processed foods.
+    
+    Regular Physical Activity: Engage in regular exercise to help control blood sugar levels and improve insulin sensitivity. Aim for a combination of aerobic exercise and strength training.
+    
+    Monitor Blood Sugar Levels: Keep track of your blood sugar levels regularly, especially if you have diabetes. Understanding your patterns can help you make adjustments to your diet, exercise, and medication as needed.
+    
+    Stay Hydrated: Drink plenty of water throughout the day to help regulate blood sugar levels and prevent dehydration.
+    
+    Limit Alcohol Intake: Alcohol can cause fluctuations in blood sugar levels, so consume it in moderation or avoid it altogether.
+    
+    Manage Stress: Stress can affect blood sugar levels, so practice stress-reduction techniques such as deep breathing, meditation, or spending time on hobbies.
+</p></list>
+
+
+   <h2> Tips for Managing Blood Pressure: </h2>
+   <p><list>
+    Healthy Diet: Focus on a balanced diet rich in fruits, vegetables, whole grains, lean proteins, and low-fat dairy products. Reduce sodium intake by avoiding processed foods and excessive salt.
+    
+    Regular Exercise: Aim for at least 30 minutes of moderate-intensity exercise most days of the week. This could include walking, jogging, swimming, or cycling.
+    
+    Maintain a Healthy Weight: Losing excess weight, if needed, can significantly lower blood pressure. Even a small reduction in weight can make a big difference.
+    
+    Limit Alcohol and Avoid Smoking: Excessive alcohol consumption and smoking can raise blood pressure. Limit alcohol intake and avoid smoking altogether.
+    
+    Manage Stress: Practice relaxation techniques such as deep breathing, meditation, or yoga to reduce stress levels, which can contribute to elevated blood pressure.
+    
+    Monitor Blood Pressure Regularly: Keep track of your blood pressure at home and consult with your healthcare provider if it consistently remains high.
+    
+    Medication Compliance: If prescribed medication for high blood pressure, take it as directed by your healthcare provider. Do not skip doses or stop medication without consulting your doctor.
+   </list>
+</p>
+            
+
+</div>
+</div>
+<script src="main.js"></script>
+
+</body>
+</html>

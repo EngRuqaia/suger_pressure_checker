@@ -1,0 +1,66 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+
+  }
+  
+
+.title{
+    font-size: 1.3rem;
+    margin-top: 30px;
+    text-align: center;
+    color: #141111;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(240, 240, 240, 0.9);
+    background-repeat: no-repeat; 
+    background-image: url(image/GettyImages-151262787.jpg);
+    position: absolute;
+    z-index: -1;
+    
+}
+.for_suger{
+    max-width: 400px;
+    margin: 100px 100px;
+    margin-top: 200px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.for_pressure{
+    max-width: 400px;
+    margin: 100px 100px;
+    margin-top: 210px;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.Section_2{
+    width: 45%; /* Adjust as needed */
+    background-image: url('background-image.jpg'); /* Add your image URL here */
+    background-size: cover;
+    background-position: center;
+    color: #e8e2e2;
+    padding: 60px;
+    font-size: 1.2rem;
+}
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #ff3c00;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
